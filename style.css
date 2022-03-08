@@ -1,0 +1,76 @@
+h1 {
+  text-align: center;
+  position: static;
+}
+canvas {
+  background-color: white;
+  border: 2px solid;
+  z-index: -1;
+}
+.titulo {
+  padding: 15px;
+  width: 30vw;
+  margin: auto;
+}
+.startDiv {
+  position:static;
+}
+.button {
+  text-align: center;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 0.5em;
+}
+.text-input {
+  border-radius: 0.5em;
+  border: 2px solid;
+  display: block;
+  padding: 0.5em;
+  width: 30%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.canvasDIV {
+  text-align: center;
+  display: none;
+}
+.CTXDiv {
+  position: relative;
+  display: inline-block;
+  bottom: 150px;
+}
+.CTODiv {
+  display: inline-block;
+  position: relative;
+  border: 2px solid green;
+  margin-left: 20px;
+  width: 50px;
+  height: 50px
+}
+.letra {
+  font-size: 40px;
+  list-style: none;
+}
+.fp {
+  position: relative;
+  bottom: 150px;
+  font-size: 30px;
+}
+.newGame {
+  text-align: center;
+  display: none;
+  position: relative;
+  bottom: 300px;
+}
+.teclasPresionadas{
+  display: inline-block;
+  position: absolute;
+  font-size: 30px;
+  bottom: 600px;
+}
